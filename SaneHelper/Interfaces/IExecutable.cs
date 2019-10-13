@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SaneHelper.Interfaces
 {
-    interface IExecutable
+    public interface IExecutable
     {
         void ExecuteAction();
     }

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaneHelper", "SaneHelper\SaneHelper.csproj", "{3088D369-D339-49AD-857A-8B96994302A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaneHelperUnitTests", "SaneHelperUnitTests\SaneHelperUnitTests.csproj", "{9B071BCF-47B9-416B-8399-0DCACF50FB3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3088D369-D339-49AD-857A-8B96994302A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3088D369-D339-49AD-857A-8B96994302A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3088D369-D339-49AD-857A-8B96994302A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B071BCF-47B9-416B-8399-0DCACF50FB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B071BCF-47B9-416B-8399-0DCACF50FB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B071BCF-47B9-416B-8399-0DCACF50FB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B071BCF-47B9-416B-8399-0DCACF50FB3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

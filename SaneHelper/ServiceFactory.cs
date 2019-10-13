@@ -7,7 +7,7 @@ using SaneHelper.Services;
 
 namespace SaneHelper
 {
-    class ServiceFactory
+    public class ServiceFactory
     {
         public static IExecutable CreateExecutableClass(string[] args) => args[0] switch
         {

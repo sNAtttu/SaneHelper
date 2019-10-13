@@ -7,7 +7,7 @@ using SaneHelper.Interfaces;
 #nullable enable
 namespace SaneHelper.Services
 {
-    class FolderService: IExecutable
+    public class FolderService: IExecutable
     {
         private List<string> passedArguments;
         public FolderService(string[] args)
