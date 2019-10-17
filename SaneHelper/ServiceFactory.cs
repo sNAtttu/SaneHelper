@@ -12,6 +12,7 @@ namespace SaneHelper
         public static IExecutable CreateExecutableClass(string[] args) => args[0] switch
         {
             "folder" => new FolderService(args),
+            "game" => new GameService(args),
             _ => throw new InvalidOperationException("Unsupported action")
         };
     }
