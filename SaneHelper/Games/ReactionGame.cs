@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SaneHelper.Games
 {
-    public static class ReflectionGame
+    public static class ReactionGame
     {
         private static Random random = new Random();
         private static bool gameShouldBeRunning = true;

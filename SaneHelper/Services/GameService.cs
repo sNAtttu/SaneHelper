@@ -20,7 +20,7 @@ namespace SaneHelper.Services
             switch (passedArguments[1])
             {
                 case "reaction":
-                    ReflectionGame.Start();
+                    ReactionGame.Start();
                     break;
                 default:
                     throw new ArgumentException("Unknown game");
